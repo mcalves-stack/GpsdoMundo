@@ -16,7 +16,6 @@ class GpsDoMundo extends StatelessWidget {
     return MaterialApp(
       theme: theme,
       debugShowCheckedModeBanner: false,
-      title: 'GPS do Mundo',
       home: const Home(),
     );
   }

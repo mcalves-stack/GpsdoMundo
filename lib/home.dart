@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'card1.dart';
+import 'card2.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -17,12 +19,8 @@ class _HomeState extends State<Home> {
   }
 
   static List<Widget> pages = <Widget>[
-    Container(
-      color: Colors.red,
-    ),
-    Container(
-      color: Colors.green,
-    ),
+    const Card1(),
+    const Card2(),
     Container(
       color: Colors.blue,
     ),
@@ -33,7 +31,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Foorderlich',
+          'Gps do Mundo',
           style: Theme.of(context).textTheme.titleLarge,
         ),
       ),
