@@ -16,7 +16,7 @@ class Card2 extends StatelessWidget {
         decoration: const BoxDecoration(
           image: DecorationImage(
             image: NetworkImage(
-                'https://blog.123milhas.com/wp-content/uploads/2022/12/conheca-os-lugares-com-as-melhores-vistas-do-rio-de-janeiro-conexao123.jpg'),
+                'https://img.freepik.com/fotos-gratis/penhascos-e-cavernas-em-um-deserto-cheio-de-grama-seca-sob-um-ceu-nublado-durante-o-dia_181624-27961.jpg'),
             fit: BoxFit.cover,
           ),
           borderRadius: BorderRadius.all(Radius.circular(10)),
